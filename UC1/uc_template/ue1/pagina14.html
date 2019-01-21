@@ -1,0 +1,200 @@
+<style>
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+        margin-left: 17%;
+      left: 0;
+      top: 0;
+      width: 83%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 60%;
+    }
+
+    /* The Close Button */
+    .close, .close2, .close3, .close4 {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close, .close2, .close3, .close4:hover,
+    .close, .close2, .close3, .close4:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    button{
+        background-color: #94b634; /* Green */
+        border: 3px solid #94b634;
+        border-radius: 5px;
+        width: 23%;
+        margin-right: 17px;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #58803e;
+        border: #58803e;
+    }
+</style>
+
+<h1>Papel da Empresa</h1>
+
+<p>É de extrema importância que as empresas assumam seus papeis e colaborem para promoção da saúde do trabalhador. Sendo assim, para a qualidade de vida acontecer de forma harmônica, a EMPRESA  necessita:</p>
+
+<div>
+    <!----------------------Modal 1 ------------------------------------->
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" style="color: white">1 - Fortalecer o Recursos Humanos (RH)</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+            <h2>Fortalecer o Recursos Humanos (RH)</h2>
+            <p>O RH tem um papel fundamental na qualidade de vida dos funcionários, pois este setor faz as adequações de cargos, salários e funções, proporcionando condições e benefícios justos à vida profissional, como também procura criar um ambiente organizacional mais humanizado, para atender os colaboradores antes de tudo como pessoas, criando um equilíbrio entre os interesses da empresa e o do seu corpo de funcionários, gerando um ambiente organizacional mais tranquilo e harmonioso.</p>
+            <img src="img/figura6_postodetrabalho1.png" style="width: 50%; margin: 0 25%">
+      </div>
+
+    </div>
+    <!--------------------------------------------------------------->
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn2" style="color: white">2 - Segurança e saúde no trabalho</button>
+
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close2">&times;</span>
+        <h2>Segurança e saúde no trabalho</h2>
+        <p>A saúde e segurança são fatores que necessitam de atenção no ambiente de trabalho, pois  a implantação dessas regras no meio organizacional pode prevenir muitas doenças ocupacionais e consequentemente vai diminuir os prejuízos não só às organizações, mas também aos trabalhadores.</p>
+        <p>Assim, cabe à empresa garantir a seus colaboradores um ambiente de trabalho com equipamentos ergonômicos, uma jornada de trabalho justa e controlada, assim como seguir as orientações legislativas, também para o acesso a Pessoas com Necessidades Especiais - PNEs.</p>
+        <img src="img/figura6_postodetrabalho1.png" style="width: 50%; margin: 0 25%">
+      </div>
+
+    </div>
+    <!--------------------------------------------------------------->
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn3" style="color: white">3 - Desenvolvimento  e promoção na carreira</button>
+
+    <!-- The Modal -->
+    <div id="myModal3" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close3">&times;</span>
+        <h2>Desenvolvimento  e promoção na carreira</h2>
+        <p>Valorizar os funcionários é um ponto muito importante para o desenvolvimento e evolução profissional de cada colaborador, o incentivo para que esses aprimorem suas capacidades e melhorem suas habilidades, fornecendo assim meios para o sucesso e promoção na carreira profissional.</p>
+        <img src="img/figura6_postodetrabalho1.png" style="width: 50%; margin: 0 25%">
+      </div>
+
+    </div>
+
+    <!--------------------------------------------------------------->
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn4" style="color: white">4 - Ambiente harmonizado organizacional</button>
+
+    <!-- The Modal -->
+    <div id="myModal4" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close4">&times;</span>
+        <h2>Ambiente harmonizado organizacional</h2>
+        <p>Por ser a empresa o local onde o colaborador passa a maior parte do tempo, ele precisa se sentir à vontade, pois com o ambiente em harmonia a organização vai promover a qualidade de vida. As ações de integração e respeito mútuo entre a equipe, fornece atributos necessários para melhorar este clima organizacional.</p>
+        <img src="img/figura6_postodetrabalho1.png" style="width: 50%; margin: 0 25%">
+      </div>
+
+    </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+var modal2 = document.getElementById('myModal2');
+var modal3 = document.getElementById('myModal3');
+var modal4 = document.getElementById('myModal4');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var btn2 = document.getElementById("myBtn2");
+var btn3 = document.getElementById("myBtn3");
+var btn4 = document.getElementById("myBtn4");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
+var span4 = document.getElementsByClassName("close4")[0];
+    
+//-------------------------------------------------------
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+
+//-------------------------------------------------------
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+span4.onclick = function() {
+  modal4.style.display = "none";
+}
+
+
+//-------------------------------------------------------
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>

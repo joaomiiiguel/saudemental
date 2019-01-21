@@ -1,0 +1,71 @@
+<style>
+    .conteudo{
+        width: 70%;
+        float: left;
+    }
+    .box{
+        width: 40%;
+        height: 200px;
+        background-color: cadetblue;
+        margin: 0 auto;
+    }
+    .person{
+        float: right;
+    }
+    .balao{
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 10px;
+        width: 20%;
+        float: right;
+        padding: 10px 25px;
+        color: #000;
+        font-size: 20px;
+        right: 3%;
+        top: 4%;
+        position: absolute;
+    }
+    .balao:after{
+        /*----seta do balão-----*/
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #000;
+        /*---definir posição da seta---*/
+        bottom: -20px;
+        left: 30%;
+    }
+    .avatar{
+        margin-top: 35%;
+    }
+    table, th, td {
+        border: 1px solid black;
+        
+    }
+    th, td{
+        padding: 15px;
+    }
+</style>
+
+<h1>Pilar Físico</h1>
+
+<div class="conteudo">
+    <p>O pilar físico está relacionado com a visão e preocupação humana, ou seja, o corpo e sua relação com a saúde e o bem-estar físico. O corpo humano  é a “máquina” central desse pilar, e  para esse  sistema funcionar de maneira completa, é necessário o uso de alguns indicadores:</p>
+    <table style="width: 100%; margin: 3% 0">
+        <tr>
+            <th style="width: 50%">1. Alimentação saudável</th>
+            <th>2. Atividade física</th>
+        </tr>
+    </table>
+    <div class="box">
+    </div>
+</div>
+<div class="person">
+    <div class="balao">
+        <p>Uma alimentação saudável aliada a prática de exercícios físicos, pode trazer grandes benefícios a saúde da pessoa.</p>
+    </div>
+    <img class="avatar" src="img/personagem03.png">
+</div> 
