@@ -1,71 +1,153 @@
 <style>
-    .conteudo{
-        width: 70%;
-        float: left;
-    }
-    .box{
-        width: 40%;
-        height: 200px;
-        background-color: cadetblue;
-        margin: 0 auto;
-    }
-    .person{
-        float: right;
-    }
-    .balao{
-        background-color: #fff;
-        border: 2px solid #000;
-        border-radius: 10px;
+    .imagem{
         width: 20%;
-        float: right;
-        padding: 10px 25px;
-        color: #000;
-        font-size: 20px;
-        right: 3%;
-        top: 4%;
-        position: absolute;
+        height: 200px;
+        background-color: blue;
+        margin: 20px auto;
     }
-    .balao:after{
-        /*----seta do balão-----*/
-        content: "";
-        width: 0;
-        height: 0;
-        position: absolute;
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
-        border-top: 20px solid #000;
-        /*---definir posição da seta---*/
-        bottom: -20px;
-        left: 30%;
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      margin-left: 17%;
+      left: 0;
+      top: 0;
+      width: 83%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     }
-    .avatar{
-        margin-top: 35%;
+
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 0 auto;
+      padding: 40px;
+      border: 1px solid #888;
+      width: 60%;
     }
-    table, th, td {
-        border: 1px solid black;
-        
+
+    /* The Close Button */
+    .close, .close2, .close3, .close4 {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
     }
-    th, td{
-        padding: 15px;
+
+    .close, .close2, .close3, .close4:hover,
+    .close, .close2, .close3, .close4:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    button{
+        background-color: #94b634; /* Green */
+        border: 3px solid #94b634;
+        border-radius: 5px;
+        width: 23%;
+        margin-right: 17px;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #58803e;
     }
 </style>
 
-<h1>Pilar Físico</h1>
 
-<div class="conteudo">
-    <p>O pilar físico está relacionado com a visão e preocupação humana, ou seja, o corpo e sua relação com a saúde e o bem-estar físico. O corpo humano  é a “máquina” central desse pilar, e  para esse  sistema funcionar de maneira completa, é necessário o uso de alguns indicadores:</p>
-    <table style="width: 100%; margin: 3% 0">
-        <tr>
-            <th style="width: 50%">1. Alimentação saudável</th>
-            <th>2. Atividade física</th>
-        </tr>
-    </table>
-    <div class="box">
+<h1>Reconhecendo os Fatores Psicossociais</h1>
+
+<p>Os fatores de risco que influenciam na saúde do trabalhador são conhecidos como fatores psicossociais e acontecem por problemas na organização e gestão do trabalho, bem como, por um contexto social complicado, podendo causar danos psicológicos, físicos e sociais como estresse, esgotamento ou depressão. Esses riscos psicossociais são mais complicados de administrar do que os riscos comuns de saúde e segurança no trabalho. Veja alguns:</p>
+
+<div class="imagem"></div>
+
+<p>Muitas vezes o trabalhador pode sentir que a sua tarefa não tem utilidade para a sociedade e que o seu local de trabalho não o permite ter a possibilidade de aprender algo a mais. Além disso, a pressão do tempo, a falta de relação interpessoal e a falta de autonomia para desenvolver seus conhecimentos, interferem na sua saúde.</p>
+
+<p>Em relação à estrutura organizacional da empresa, surge a dúvida: Eu, trabalhador, como devo realizar as minhas tarefas com segurança para minha saúde? Muitas vezes um treinamento ou explicação a cerca de um método ou de uma nova tecnologia, não ocorre de maneira clara e simples para o trabalhador, podendo gerar situações indecisas e de stress. </p>
+
+<p>Podemos pontuar outras situações dentro da organização do trabalho: a contratação de profissionais com formação inadequada para uma determinada função; a falta de uma possível promoção e a falta de relação interpessoal, causam a perturbação da saúde do trabalhador. Todos esses riscos psicossociais podem gerar insatisfação com um menor envolvimento do trabalhador na organização, consequentemente, pode comprometer seu rendimento e aumentar o risco de isolamento e a instalação da doença. Com isso, as doenças mentais são responsáveis por grande parte do absenteísmo - ausência no trabalho, gerando custos adicionais às instituições.</p>
+
+<p>Ao contrário do absenteísmo, as pessoas que sofrem do presenteísmo, não se ausentam do trabalho, mas sofrem ao final do expediente muitas dores com quadro de fadiga, irritação, entre outros sintomas que comprometem a produtividade na empresa
+</p>
+
+<div class="imagem"></div>
+
+<p>Mas, é  importante ressaltar que a organização do trabalho por si só não faz o trabalhador criar transtornos psíquicos característicos, os aparecimentos psicóticos dependem muito da personalidade que a pessoa desenvolve desde o início da vida e experiências. Portanto, "o defeito crônico de uma vida mental sem saída mantido pela organização do trabalho, tem provavelmente um efeito que favorece as descompensações psiconeuróticas" (DEJOURS, 1994:122).
+</p>
+
+<p>O colaborador pode ser capaz de reconhecer os incidentes que possam afetar a sua saúde mental no local de trabalho e apontar as prováveis fontes nocivas. Esse reconhecimento e participação do trabalhador é fundamental para identificar, eliminar e controlar os riscos já que realizam o trabalho diário e que sofrem seus impactos. As fontes dos riscos na maioria das vezes estão envolvidas com questões violentas e que se mostram evidentes como, por exemplo, as jornadas excessivas de trabalho com consequências direta na fisiologia do seu corpo.
+</p>
+
+<div class="imagem"></div>
+
+<p>Atualmente, a violência no trabalho é considerada um problema de saúde pública pela Organização Mundial de Saúde e deve ser entendida, neste contexto, como qualquer tipo de agressão, ameaça e humilhação sofrida pelo trabalhador sendo passível de danos. Comportamentos violentos como: desprezo, discriminação, desrespeito, repreensões exageradas e assédio são violências que muitas vezes deixam marcas invisíveis no trabalhador, mas que podem levar a casos graves de doenças psíquicas. </p>
+
+<p>O assédio (moral ou sexual) é um dos riscos psicossociais mais recorrentes, e pode ser caracterizado como violência no trabalho. É considerado crime, de acordo com o código penal, quando um indivíduo se aproveita do cargo exercido para ganhar vantagem de um subordinado.</p>
+
+<div class="imagem"></div>
+
+<!----------------------Modal 1 ------------------------------------->
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" style="color: white">Você Sabia?</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+            <p>Além dos fatores psicossociais já citados neste material, podemos ainda citar como fator de risco, a exposição dos trabalhadores a substâncias químicas. A Organização Internacional do Trabalho (OIT) estimou, em 2004, 35 milhões de casos anuais de doenças relacionadas com o trabalho por exposição a substâncias químicas com a ocorrência de 439 mil mortes (KATO; GARCIA; WUNSCH FILHO, 2007).</p>
+      </div>
+
     </div>
-</div>
-<div class="person">
-    <div class="balao">
-        <p>Uma alimentação saudável aliada a prática de exercícios físicos, pode trazer grandes benefícios a saúde da pessoa.</p>
-    </div>
-    <img class="avatar" src="img/personagem03.png">
-</div> 
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+    
+//-------------------------------------------------------
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+//-------------------------------------------------------
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+
+//-------------------------------------------------------
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>

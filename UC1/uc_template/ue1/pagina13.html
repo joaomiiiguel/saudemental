@@ -1,18 +1,35 @@
 <style>
-    iframe{
-        width: 100%;
-        height: 570px;
-        border: 0;
-        margin-bottom: 10px;
-
+    .balao{
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 10px;
+        width: 40%;
+        float: right;
+        padding: 10px 25px;
+        color: #000;
+        font-size: 20px;
+        right: 15%;
+        position: absolute;
+    }
+    .balao:after{
+        /*----seta do balão-----*/
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #000;
+        /*---definir posição da seta---*/
+        bottom: -20px;
+        right: 10%;
     }
 </style>
 
-<h1>QUALIDADE DE VIDA NO TRABALHO</h1>
+<h1>Video Aula</h1>
 
-<iframe src="cap/Valor13/index.html"></iframe>
-
-<p>A preocupação com o  bem-estar passa a ser não apenas uma relevância do contexto da vida cotidiana, mas também no âmbito profissional.</p>
-<p>Uma boa percepção de qualidade de vida perpassa em um primeiro momento, pelo ambiente físico-social e logo adiante pelas escolhas do indivíduo para realização pessoal. Portanto uma má ou boa concepção sobre qualidade de vida vai depender do ambiente no qual o sujeito está inserido e as oportunidades disponíveis para sua satisfação.</p>
-<img src="img/figura11_diretrizesergonomicas1.png" style="width: 50%; margin: 2% 25%">
-<p>Diferentemente do que algumas pessoas acham a satisfação de um trabalhador não é algo que diz respeito apenas a ele. A satisfação do colaborador vai depender principalmente  da Gestão Organizacional, já que empresas são formadas de pessoas motivadas, felizes e engajadas, prontas para mostrar seu lado profissional e trazer bons frutos para a empresa.</p>
+<div class="column">
+    <div class="balao"><p>Para aprofundar um pouco mais seus estudos, assista a videoaula abaixo, onde um especialista no assunto vai  fazer uma revisão e repassar algumas dicas sobre a saúde mental do trabalhador.</p>
+    </div>
+    <img src="img/personagem01.png" style="float: right; width:10%; margin: 10% 10% 0 0">
+</div>
